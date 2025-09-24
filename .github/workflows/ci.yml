@@ -1,0 +1,13 @@
+name: Python tests
+
+on:
+  push:
+    branches:
+      - cl-branch
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
