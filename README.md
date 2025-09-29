@@ -38,6 +38,8 @@ coverage html
 
 The first command will generate the coverage report in your terminal. The second will generate an html file in `htmlcov/index.html` which you can view in your browser.
 
+Note: if you also want to measure branch coverage, add the `--branch` to the coverage command: `coverage run --breanch -m pytest`
+
 ## Tasks
 
 See [tasks](/tasks) folder for the different tasks you can try out with this repo.
